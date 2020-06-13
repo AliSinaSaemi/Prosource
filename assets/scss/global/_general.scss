@@ -64,6 +64,10 @@ a:hover {
   text-transform: uppercase;
 }
 
+.boxed {
+  border: 1px solid $gray-400;
+}
+
 p {
   font-size: 18px;
   line-height: 26px;
@@ -102,6 +106,10 @@ p.thick {
     position: absolute;
     bottom: 35px;
   }
+}
+
+.jumbotron.in-page {
+  height: 500px;
 }
 
 .c-cta-double__title {
