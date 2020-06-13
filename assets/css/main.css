@@ -21,6 +21,8 @@ h2 {
   color: #a5cd38;
   font-size: 1.5rem;
   line-height: 1.25em; }
+  h2.dark {
+    color: #495057; }
 
 video {
   width: 1000px;
@@ -136,7 +138,10 @@ p.thick {
     width: 50px; }
 
   .btn {
-    font-size: 0.75rem; } }
+    font-size: 0.75rem; }
+
+  footer .nav {
+    margin-bottom: 30px; } }
 footer .top {
   background-color: #6c757d; }
   footer .top h3 {
@@ -309,6 +314,9 @@ nav {
 
 .banner-2 {
   background-image: url("../img/banners/banner-2.jpg"); }
+
+.banner-3 {
+  background-image: url("../img/banners/banner-3.jpg"); }
 
 @media (max-width: 1200px) {
   .jumbotron {
