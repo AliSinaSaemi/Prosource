@@ -32,6 +32,16 @@ nav {
   color: $black;
   font-size: 0.9375rem;
 }
+.navbar-toggler {
+  border: none;
+  outline: none;
+  &:focus,
+  &:hover {
+    box-shadow: none;
+    border: none;
+    outline: none;
+  }
+}
 
 .c-breadcrumb {
   background-color: $light;

@@ -4,6 +4,14 @@ body {
 
 a {
   transition-duration: 0.4s; }
+  a.p-link {
+    color: #A5CD38;
+    text-decoration: none;
+    background-color: transparent;
+    font-weight: bold; }
+    a.p-link:hover {
+      color: #769325;
+      text-decoration: underline; }
 
 h1,
 h2,
@@ -56,7 +64,7 @@ a:hover {
 
 p {
   font-size: 18px;
-  line-height: 26px; }
+  line-height: 30px; }
 
 p.thin {
   font-weight: lighter; }
@@ -128,6 +136,12 @@ p.thick {
     position: absolute;
     left: 0;
     bottom: 0; }
+
+.c-card__subtitle {
+  text-transform: uppercase;
+  font-size: 1rem;
+  line-height: 1em;
+  font-weight: 700; }
 
 @media (max-width: 996px) {
   h1 {
@@ -234,6 +248,14 @@ nav {
 .navbar-light .navbar-nav .nav-link {
   color: #000;
   font-size: 0.9375rem; }
+
+.navbar-toggler {
+  border: none;
+  outline: none; }
+  .navbar-toggler:focus, .navbar-toggler:hover {
+    box-shadow: none;
+    border: none;
+    outline: none; }
 
 .c-breadcrumb {
   background-color: #F9F9F9; }
@@ -352,6 +374,10 @@ nav {
 @media (min-width: 1200px) {
   .jumbotron {
     height: 600px; } }
+@media (max-width: 992px) {
+  .jumbotron {
+    background-position: center center;
+    height: auto !important; } }
 @media (max-width: 768px) {
   .jumbotron {
     height: 450px;
