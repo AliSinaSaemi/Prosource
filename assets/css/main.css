@@ -97,7 +97,7 @@ label {
 
 .info-box {
   background-color: #F9F9F9;
-  padding: 20px; }
+  padding: 30px; }
   .info-box ul li {
     position: relative;
     background-color: transparent;
@@ -105,7 +105,10 @@ label {
     padding-left: 30px;
     border: none; }
     .info-box ul li i {
-      position: absolute; }
+      position: absolute;
+      left: -1px;
+      top: 18px;
+      color: #A5CD38; }
 
 .quote {
   position: relative;
