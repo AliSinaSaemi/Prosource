@@ -141,6 +141,26 @@ label {
   line-height: 1.05882em;
   font-weight: 900; }
 
+.pmass-box {
+  position: relative; }
+  .pmass-box h3 {
+    margin: 1em 0 0.5em;
+    font-weight: 900;
+    font-size: 20px; }
+  .pmass-box img.banner {
+    position: relative;
+    z-index: 0; }
+  .pmass-box .pmass-icon {
+    width: 70px;
+    position: absolute;
+    top: 150px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: #fff;
+    padding: 12px;
+    border-radius: 50px; }
+
 .single-quote-image {
   position: relative;
   display: block; }
