@@ -182,7 +182,6 @@ label {
 }
 
 .pmass-box {
-  position: relative;
   h3 {
     margin: 1em 0 0.5em;
     font-weight: 900;
@@ -192,10 +191,13 @@ label {
     position: relative;
     z-index: 0;
   }
+  .content {
+    position: relative;
+  }
   .pmass-icon {
     width: 70px;
     position: absolute;
-    top: 150px;
+    top: -75px;
     left: 0;
     right: 0;
     margin: auto;
@@ -283,6 +285,9 @@ label {
         display: block;
       }
     }
+  }
+  footer .top .nav .nav-item {
+    font-size: 12px;
   }
 }
 
