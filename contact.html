@@ -99,78 +99,114 @@
               <p><i class="fas fa-angle-right"></i></p>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#">Blog</a>
+              <a class="nav-link active" href="#">Contact</a>
             </li>
           </ul>
         </div>
       </div>
     </section>
-    <div class="jumbotron in-page banner-3 text-center uppercase flex">
+    <div class="jumbotron in-page banner-4 text-center uppercase flex">
       <div class="container">
-        <h1 class="display-4 mb-3 pb-3 pt-3 py-lg-0">OUR BLOG</h1>
+        <h1 class="display-4 mb-3 pb-3 pt-3 py-lg-0">Contact us</h1>
         <p>
-          At Prosource we are committed to creating a positive company culture,
-          where everyone can flourish. We believe in open communication and in
-          creating a community where everyone can learn from each other.
+          Are you looking for an experienced project manager who is a seamless
+          extension of your internal project management team? Do you want to
+          participate in our project management training & certification
+          programme or are you interested in working at Prosource? Please don’t
+          hesitate to contact us!
         </p>
       </div>
     </div>
 
     <main class="index">
-      <section class="py-3">
+      <section class="py-4">
         <div class="container">
           <div class="row">
-            <p>
-              On our blog, we share <b>models</b> on what’s going on in the
-              project management world, but also about <b>events</b> and fun
-              activities that we’ve participated in!
-            </p>
+            <div class="col-md-12">
+              <form>
+                <div class="form-group mb-4">
+                  <label for="firstName"
+                    >First name <span class="gfield_required">*</span></label
+                  >
+                  <input type="text" class="form-control" id="firstName" />
+                </div>
+                <div class="form-group mb-4">
+                  <label for="lastName"
+                    >Last name <span class="gfield_required">*</span></label
+                  >
+                  <input type="text" class="form-control" id="lastName" />
+                </div>
+                <div class="form-group mb-4">
+                  <label for="company"
+                    >Company <span class="gfield_required">*</span></label
+                  >
+                  <input type="text" class="form-control" id="company" />
+                </div>
+
+                <div class="form-group mb-4">
+                  <label for="phone"
+                    >Phone number <span class="gfield_required">*</span></label
+                  >
+                  <input type="text" class="form-control" id="phone" />
+                </div>
+
+                <div class="form-group mb-4">
+                  <label for="exampleFormControlTextarea1"
+                    >Your question!
+                    <span class="gfield_required">*</span></label
+                  >
+                  <textarea
+                    class="form-control"
+                    id="exampleFormControlTextarea1"
+                    rows="3"
+                  ></textarea>
+                </div>
+
+                <div
+                  class="g-recaptcha brochure__form__captcha"
+                  data-sitekey="6LctWqQZAAAAAOm-Np9eRJfRwFt8U3Tvk9XEyZcH"
+                ></div>
+                <button
+                  class="btn btn-success bold uppercase text-center d-block w-100 my-5"
+                >
+                  Submit
+                </button>
+              </form>
+            </div>
           </div>
         </div>
       </section>
       <section class="py-5">
         <div class="container">
           <div class="row">
-            <div class="col-md-6 col-lg-4 py-4">
-              <a href=""
-                ><img class="img-fluid mb-3" src="assets/img/blog/1.png" alt=""
-              /></a>
-              <a href=""
-                ><h2 class="bolder">
-                  Prosource en ProjectPolis bundelen de krachten
-                </h2></a
-              >
-              <p class="thin">
-                Nico Marien (CEO van Prosource): “Door de overname van
-                ProjectPolis zetten we een belangrijke stap in de groei van ons…
-              </p>
-              <a href="" class="btn btn-link">Our group</a>
-            </div>
-            <div class="col-md-6 col-lg-4 py-4">
-              <a href=""
-                ><img class="img-fluid mb-3" src="assets/img/blog/1.png" alt=""
-              /></a>
-              <a href=""
-                ><h2 class="bolder">
-                  Prosource en ProjectPolis bundelen de krachten
-                </h2></a
-              >
-              <p class="thin">
-                Nico Marien (CEO van Prosource): “Door de overname van
-                ProjectPolis zetten we een belangrijke stap in de groei van ons…
-              </p>
-              <a href="" class="btn btn-link">Our group</a>
+            <div class="col-lg-8"></div>
+            <div class="col-lg-4">
+              <div class="info-box">
+                <h2 class="dark bolder mb-3 opacity-0 opacity-0">
+                  Hello Hello
+                </h2>
+                <ul class="list-group">
+                  <li class="list-group-item">
+                    <i class="fas fa-location-arrow"></i>
+                    <p class="thin">
+                      5th floor, Intergen House, 65-67 Western Road Hove BN3 2JQ
+                      East Sussex United Kingdom
+                    </p>
+                  </li>
+                  <li class="list-group-item">
+                    <i class="fas fa-mail-bulk"></i>
+                    <a href="" class="p-link thin">info@prosource.be</a>
+                  </li>
+                  <li class="list-group-item">
+                    <i class="fas fa-phone"></i>
+                    <a href="" class="p-link thin">+32(0) 15 27 03 37</a>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
       </section>
-      <div class="py-3"></div>
-      <section class="text-center py-5">
-        <a class="btn btn-success text-center mx-auto">
-          Learn more about these seven benefits
-        </a>
-      </section>
-      <div class="py-5"></div>
     </main>
     <footer>
       <div class="top py-5">
@@ -284,6 +320,7 @@
     </footer>
 
     <script src="./assets/plugins/jquery/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js"></script>
     <script src="./assets/plugins/jquery.sticky.js"></script>
     <script src="./assets/plugins/popper/popper.min.js"></script>
     <script src="./assets/plugins/bootstrap4/js/bootstrap.min.js"></script>

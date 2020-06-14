@@ -9,6 +9,8 @@ a {
     text-decoration: none;
     background-color: transparent;
     font-weight: bold; }
+    a.p-link.thin {
+      font-weight: lighter; }
     a.p-link:hover {
       color: #769325;
       text-decoration: underline; }
@@ -40,6 +42,9 @@ a:hover {
   color: #A5CD38;
   text-decoration: none;
   transition-duration: 0.4s; }
+
+.opacity-0 {
+  opacity: 0; }
 
 .flex {
   display: flex; }
@@ -78,6 +83,29 @@ p.thick {
   font-size: 0.875rem;
   line-height: 1.28571em;
   font-weight: 900; }
+
+label {
+  position: relative; }
+  label .gfield_required {
+    color: #E31E26; }
+
+.form-control {
+  padding: 23px;
+  border-radius: 0; }
+  .form-control:hover {
+    border-color: #A5CD38; }
+
+.info-box {
+  background-color: #F9F9F9;
+  padding: 20px; }
+  .info-box ul li {
+    position: relative;
+    background-color: transparent;
+    padding-right: 0;
+    padding-left: 30px;
+    border: none; }
+    .info-box ul li i {
+      position: absolute; }
 
 .quote {
   position: relative;
@@ -233,6 +261,8 @@ nav {
   padding: 1.75rem 0;
   z-index: 3000;
   background-color: #fff !important; }
+  .navbar .nav-item .nav-link.active {
+    color: #A5CD38; }
 
 .navbar-light .navbar-nav .nav-link .nav-link:hover {
   color: #A5CD38;
@@ -367,6 +397,9 @@ nav {
 
 .banner-3 {
   background-image: url("../img/banners/banner-3.jpg"); }
+
+.banner-4 {
+  background-image: url("../img/banners/banner-4.jpg"); }
 
 @media (max-width: 1200px) {
   .jumbotron {

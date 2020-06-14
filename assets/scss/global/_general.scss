@@ -9,6 +9,9 @@ a {
     text-decoration: none;
     background-color: transparent;
     font-weight: bold;
+    &.thin {
+      font-weight: lighter;
+    }
     &:hover {
       color: #769325;
       text-decoration: underline;
@@ -48,6 +51,10 @@ a:hover {
   color: $primary;
   text-decoration: none;
   transition-duration: 0.4s;
+}
+
+.opacity-0 {
+  opacity: 0;
 }
 
 .flex {
@@ -97,6 +104,38 @@ p.thick {
   font-size: 0.875rem;
   line-height: 1.28571em;
   font-weight: 900;
+}
+
+label {
+  position: relative;
+  .gfield_required {
+    color: $danger;
+  }
+}
+
+.form-control {
+  padding: 23px;
+  border-radius: 0;
+  &:hover {
+    border-color: $primary;
+  }
+}
+
+.info-box {
+  background-color: $light;
+  padding: 20px;
+  ul {
+    li {
+      position: relative;
+      background-color: transparent;
+      padding-right: 0;
+      padding-left: 30px;
+      border: none;
+      i {
+        position: absolute;
+      }
+    }
+  }
 }
 
 .quote {
