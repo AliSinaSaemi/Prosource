@@ -84,6 +84,10 @@ p.thick {
   line-height: 1.28571em;
   font-weight: 900; }
 
+.benefits-project .img {
+  width: 30%;
+  margin-right: 20px; }
+
 label {
   position: relative; }
   label .gfield_required {
@@ -174,7 +178,7 @@ label {
   line-height: 1em;
   font-weight: 700; }
 
-@media (max-width: 996px) {
+@media (max-width: 992px) {
   h1 {
     font-size: 25px !important; }
 
@@ -183,7 +187,18 @@ label {
     margin-top: 7%; }
 
   .single-quote-image:before, .single-quote-image:after {
-    display: none; } }
+    display: none; }
+
+  .benefits-project {
+    text-align: center; }
+    .benefits-project .flex {
+      display: block; }
+    .benefits-project .img {
+      width: 100%;
+      margin-right: 0; }
+      .benefits-project .img img {
+        margin: auto;
+        display: block; } }
 @media (max-width: 768px) {
   .benefits img {
     width: 50px; }
@@ -191,8 +206,12 @@ label {
   .btn {
     font-size: 0.75rem; }
 
-  footer .nav {
-    margin-bottom: 30px; } }
+  footer {
+    text-align: center; }
+    footer .nav {
+      margin-bottom: 30px; }
+      footer .nav .nav-link {
+        padding-right: 0; } }
 footer .top {
   background-color: #6c757d; }
   footer .top h3 {
@@ -414,7 +433,7 @@ nav {
   .jumbotron {
     height: 600px; } }
 @media (max-width: 992px) {
-  .jumbotron {
+  .jumbotron.banner-top {
     background-position: center center;
     height: auto !important; } }
 @media (max-width: 768px) {
