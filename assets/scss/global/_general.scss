@@ -196,6 +196,7 @@ label {
   }
   .pmass-icon {
     width: 70px;
+    height: 70px;
     position: absolute;
     top: -75px;
     left: 0;
@@ -204,6 +205,13 @@ label {
     background-color: #fff;
     padding: 12px;
     border-radius: 50px;
+    img {
+      position: absolute;
+      right: 0;
+      left: 0;
+      margin: auto;
+      width: 45px;
+    }
   }
 }
 
@@ -308,6 +316,10 @@ label {
         padding-right: 0;
       }
     }
+  }
+  .single-quote-image {
+    width: 170px;
+    margin: auto;
   }
 }
 

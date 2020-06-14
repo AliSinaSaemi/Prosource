@@ -152,6 +152,7 @@ label {
   position: relative; }
 .pmass-box .pmass-icon {
   width: 70px;
+  height: 70px;
   position: absolute;
   top: -75px;
   left: 0;
@@ -160,6 +161,12 @@ label {
   background-color: #fff;
   padding: 12px;
   border-radius: 50px; }
+  .pmass-box .pmass-icon img {
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: auto;
+    width: 45px; }
 
 .single-quote-image {
   position: relative;
@@ -234,7 +241,11 @@ label {
     footer .nav {
       margin-bottom: 30px; }
       footer .nav .nav-link {
-        padding-right: 0; } }
+        padding-right: 0; }
+
+  .single-quote-image {
+    width: 170px;
+    margin: auto; } }
 footer .top {
   background-color: #6c757d; }
   footer .top h3 {
